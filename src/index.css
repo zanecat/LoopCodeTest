@@ -1,14 +1,80 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html,
+body,
+div#root {
+  width: 100%;
+  height: 100%;
+}
+
+div.header {
+  overflow: hidden;
+  background-color: #3439ab;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+
+div.header-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+button.main-btn {
+  width: 100px;
+  background-color: #3439ab;
+  color: white;
+  height: 40px;
+  border-radius: 20px;
+}
+
+select.control, input.control {
+  width: 200px;
+  height: 40px;
+}
+
+div.section {
+  border-radius: 5px;
+  background-color: #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  width: 100%;
+}
+
+div.node-name {
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.group-name {
+  background-color:#3439ab;
+  color: white;
+}
+
+div.user-name {
+  border: #3439ab 1px solid
+}
+
+div.app, div#main {
+  width: 100%;
+  height: 100%;
+}
+
+div#main {
+  padding: 120px 100px 70px 100px
 }
